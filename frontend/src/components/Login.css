@@ -1,0 +1,49 @@
+.loginBg{
+    background-image: radial-gradient(rgba(38, 37, 37, 0.8) 5%, rgba(11, 9, 9, 0.793) 70%, rgba(19, 19, 19, 0.416) 100%), url("C:\Users\91822\Desktop\NETFLIX\netflix\frontend\src\images\netflix-fp.jpg"); 
+    height: 100vh;
+    width:100%;
+  }
+  .loginBox{
+    background-color: rgba(0, 0, 0, 0.695);
+    width: 350px;
+    border-radius: 8px;;
+    height:80vh;
+    position:absolute;
+    top:150px;
+    left:30%;
+    right:50%;
+    padding-right:50px;
+    padding-left:50px;
+   
+  }
+  .loginBox h1{
+    color:white;
+  }
+  .loginBox input{
+    
+    border: 1px solid rgba(151, 151, 151, 0.832);
+    height:55px;
+    width:350px;
+    border-radius: 3px;
+    background-color: rgba(70, 90, 126, 0.271);
+    color: aliceblue;
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .loginBox button{
+    
+    border: 1px solid rgba(151, 151, 151, 0.832);
+    height:50px;
+    width:350px;
+    border-radius: 3px;
+    background-color: rgb(229, 0, 0);
+    color: aliceblue;
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+  .loginBox p{
+    color:#fff;
+    text-align: center;
+    font-size: 20px;
+  }
+  
