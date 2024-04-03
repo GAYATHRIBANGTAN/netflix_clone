@@ -11,7 +11,7 @@ app.use(cors())
 
 async function connectToDb() {
   try{   
-   await mongoose.connect('mongodb+srv://Gayathri:82209@cluster0.t3icp1c.mongodb.net/netflix_updation?retryWrites=true&w=majority&appName=Cluster0')
+   await mongoose.connect('mongodb+srv://Gayathri:82209@cluster0.t3icp1c.mongodb.net/New?retryWrites=true&w=majority&appName=Cluster0')
     console.log('DB Connection established')
     const port=process.env.PORT || 8000
     app.listen(port,function(){
